@@ -11,7 +11,8 @@ import SwiftUI
 struct UIDesignSandboxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            SkeuomorphismButton()
+            FlatDesignButton()
         }
     }
 }

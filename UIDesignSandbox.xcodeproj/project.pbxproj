@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B8A900BF293F3DF400B0E20B /* UIDesignSandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900BE293F3DF400B0E20B /* UIDesignSandboxApp.swift */; };
-		B8A900C1293F3DF400B0E20B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900C0293F3DF400B0E20B /* ContentView.swift */; };
+		B8A900C1293F3DF400B0E20B /* SkeuomorphismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900C0293F3DF400B0E20B /* SkeuomorphismButton.swift */; };
 		B8A900C3293F3DFE00B0E20B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A900C2293F3DFE00B0E20B /* Assets.xcassets */; };
 		B8A900C6293F3DFE00B0E20B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A900C5293F3DFE00B0E20B /* Preview Assets.xcassets */; };
 		B8A900D0293F3DFF00B0E20B /* UIDesignSandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900CF293F3DFF00B0E20B /* UIDesignSandboxTests.swift */; };
 		B8A900DA293F3DFF00B0E20B /* UIDesignSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900D9293F3DFF00B0E20B /* UIDesignSandboxUITests.swift */; };
 		B8A900DC293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900DB293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift */; };
+		B8A900E929408C3A00B0E20B /* FlatDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		B8A900BB293F3DF400B0E20B /* UIDesignSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIDesignSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A900BE293F3DF400B0E20B /* UIDesignSandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSandboxApp.swift; sourceTree = "<group>"; };
-		B8A900C0293F3DF400B0E20B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8A900C0293F3DF400B0E20B /* SkeuomorphismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeuomorphismButton.swift; sourceTree = "<group>"; };
 		B8A900C2293F3DFE00B0E20B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8A900C5293F3DFE00B0E20B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8A900CB293F3DFF00B0E20B /* UIDesignSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDesignSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		B8A900D5293F3DFF00B0E20B /* UIDesignSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDesignSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8A900D9293F3DFF00B0E20B /* UIDesignSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSandboxUITests.swift; sourceTree = "<group>"; };
 		B8A900DB293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatDesignButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				B8A900BE293F3DF400B0E20B /* UIDesignSandboxApp.swift */,
-				B8A900C0293F3DF400B0E20B /* ContentView.swift */,
+				B8A900C0293F3DF400B0E20B /* SkeuomorphismButton.swift */,
+				B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */,
 				B8A900C2293F3DFE00B0E20B /* Assets.xcassets */,
 				B8A900C4293F3DFE00B0E20B /* Preview Content */,
 			);
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A900C1293F3DF400B0E20B /* ContentView.swift in Sources */,
+				B8A900C1293F3DF400B0E20B /* SkeuomorphismButton.swift in Sources */,
+				B8A900E929408C3A00B0E20B /* FlatDesignButton.swift in Sources */,
 				B8A900BF293F3DF400B0E20B /* UIDesignSandboxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
