@@ -15,6 +15,9 @@
 		B8A900DA293F3DFF00B0E20B /* UIDesignSandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900D9293F3DFF00B0E20B /* UIDesignSandboxUITests.swift */; };
 		B8A900DC293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900DB293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift */; };
 		B8A900E929408C3A00B0E20B /* FlatDesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */; };
+		B8A900EB2940915700B0E20B /* NeumorphismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900EA2940915700B0E20B /* NeumorphismButton.swift */; };
+		B8A900ED2941788000B0E20B /* GlassmorphismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900EC2941788000B0E20B /* GlassmorphismButton.swift */; };
+		B8A900EF294180D200B0E20B /* ClaymorphismButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A900EE294180D200B0E20B /* ClaymorphismButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		B8A900D9293F3DFF00B0E20B /* UIDesignSandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSandboxUITests.swift; sourceTree = "<group>"; };
 		B8A900DB293F3DFF00B0E20B /* UIDesignSandboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDesignSandboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatDesignButton.swift; sourceTree = "<group>"; };
+		B8A900EA2940915700B0E20B /* NeumorphismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismButton.swift; sourceTree = "<group>"; };
+		B8A900EC2941788000B0E20B /* GlassmorphismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismButton.swift; sourceTree = "<group>"; };
+		B8A900EE294180D200B0E20B /* ClaymorphismButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaymorphismButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 				B8A900BE293F3DF400B0E20B /* UIDesignSandboxApp.swift */,
 				B8A900C0293F3DF400B0E20B /* SkeuomorphismButton.swift */,
 				B8A900E829408C3A00B0E20B /* FlatDesignButton.swift */,
+				B8A900EA2940915700B0E20B /* NeumorphismButton.swift */,
+				B8A900EC2941788000B0E20B /* GlassmorphismButton.swift */,
+				B8A900EE294180D200B0E20B /* ClaymorphismButton.swift */,
 				B8A900C2293F3DFE00B0E20B /* Assets.xcassets */,
 				B8A900C4293F3DFE00B0E20B /* Preview Content */,
 			);
@@ -260,7 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A900ED2941788000B0E20B /* GlassmorphismButton.swift in Sources */,
+				B8A900EF294180D200B0E20B /* ClaymorphismButton.swift in Sources */,
 				B8A900C1293F3DF400B0E20B /* SkeuomorphismButton.swift in Sources */,
+				B8A900EB2940915700B0E20B /* NeumorphismButton.swift in Sources */,
 				B8A900E929408C3A00B0E20B /* FlatDesignButton.swift in Sources */,
 				B8A900BF293F3DF400B0E20B /* UIDesignSandboxApp.swift in Sources */,
 			);
@@ -349,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -403,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
