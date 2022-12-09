@@ -4,7 +4,7 @@
 It contains the code for the articles created by zenn.
 This repository has created UIButton with various designs.
 
-zenn: [【SwiftUI】UIButtonで理解するUIデザイントレンド]()
+zenn: [【SwiftUI】UIButtonで理解するUIデザイントレンド](https://zenn.dev/juginon/articles/a5acd449f70d61)
 
 ### Skeuomorphism
 <img src="https://user-images.githubusercontent.com/39939005/206405642-e8bb66bb-b0ce-4102-a67e-04223b470ffc.png" width="50%">
